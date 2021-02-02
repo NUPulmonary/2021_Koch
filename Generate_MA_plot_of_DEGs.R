@@ -7,7 +7,6 @@ library(ggrepel)
 setwd("/Users/x/Desktop/") 
 x <- read.delim(insert_file_here, row.names = "Ensembl") 
 head(x)
-ma <- x[,c("logFC","logCPM")]
 
 #Optional: add targets file with gene names to be labeled in plot
 #genenames <-read.delim("x",header=TRUE)
